@@ -1,9 +1,11 @@
 # Portfolio - Python Application
 
-# Description:
+
+## Description:
 Creation of a portfolio containing projects, introduction and contact details with contact form. The portfolio is deployed on Heroku.
 
-# Installation process:
+
+## Installation process:
 1. $ clone he project: https://github.com/DoriDoro/portfolio_dorothea-reher.git
 2. $ cd portfolio_dorothea-reher
 3. $ python -m venv venv
@@ -13,11 +15,13 @@ Creation of a portfolio containing projects, introduction and contact details wi
 7. $ export FLASK_ENV=development
 8. $ flask run
 
-# Heroku website URL:
-portfolio-of-doro.herokuapp.com/
+
+## Heroku website URL:
+https://portfolio-of-doro.herokuapp.com/
 
 
-# Used HTML/CSS Free Template:
+
+### Used HTML/CSS Free Template:
 http://www.mashup-template.com/preview.html?template=univers
 
 
