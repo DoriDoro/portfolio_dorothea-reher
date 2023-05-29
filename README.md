@@ -11,7 +11,7 @@ Creation of a portfolio containing projects, introduction and contact details wi
 3. $ python -m venv venv
 4. $ . venv/bin/activate
 5. $ pip install -r requirements.txt
-6. $ export FLASK_APP=server
+6. $ export FLASK_APP=index
 7. $ export FLASK_ENV=development
 8. $ flask run
 
@@ -21,6 +21,7 @@ https://portfolio-dorothea-reher-doridoro.vercel.app/
 
 
 ### Used HTML/CSS Free Template:
+this template does not exist anymore but the template is from:
 http://www.mashup-template.com/preview.html?template=univers
 
 

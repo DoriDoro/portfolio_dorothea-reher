@@ -37,7 +37,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
           <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./works.html" title="">02 : Projects</a></li>
           <li><a href="./about.html" title="">03 : About me</a></li>
         </ul>
 
@@ -48,6 +48,9 @@
             <li><a href="./work004.html" title="">004</a></li>
             <li><a href="./work005.html" title="">005</a></li>
             <li><a href="./work006.html" title="">006</a></li>
+            <li><a href="./work007.html" title="">007</a></li>
+            <li><a href="./work008.html" title="">008</a></li>
+            <li><a href="./work009.html" title="">009</a></li>
           </ul>
 
       </div> 
@@ -61,10 +64,32 @@
         <img src="./static/assets/images/work001-01.jpg" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">006 : Book to Scrape </h1>
-            <h1 class="h3"> Python - GitHub - Vercel </h1>
+            <h1 class="h2">006 : ToDoro Application </h1>
+            <h1 class="h3"> Python - Django - Bootstrap - GitHub - Heroku </h1>
           </div>
-          <p> This is the first Python project of the path of Openclassrooms - Python Developper. The  </p>
+          <p> Single Page Application with a todo list. The todo item can be added, updated, deleted and marked
+            completed. The list is a table which can be updated, marked completed or the item can be deleted.
+            When a todo item will be marked as completed the checkbox will be ticked and the incomplete text will
+            change to complete. In the navbar new todo items can be added to the list. Above the table of todo
+            items you see all todo items listed.  </p>
+
+          <div class="text-center">
+            <h1 class="h3"> Learning experience? </h1>
+          </div>
+          <p> ToDoro is a todo app with the CRUD functionalities. There are two models and a ForeignKey relationship.
+            A todo list should have a title and the possibility to add multiple items to a list. During the
+            development of the todo app there were some steps that you can't see in the final version. It was a
+            development with ups and downs. At first I wanted to use custom CSS styling, but it didn't last long,
+            that's when I realized that using Bootstrap makes a lot more sense. In the development of the ToDoro
+            lists, there was an uncertainty between applying a ManyToMany and a ForeignKey relationship. With the
+            application of a ForeignKey relationship, I better understood the use of this field. To be able to
+            display the ToDoro List I had to figure out how to do that. I looked into InlineFormset and ModelFormsets.
+            However, I decided against it, since I did not like the representation. To be able to display the title
+            and the items of two different models I had to deal with related objects reference. Only with this it was
+            possible for me to display the ToDoro List. For the first time during the development I got to know the
+            Python shell. This project was indeed a very important one for me. The beginning of a new era. The CRUD
+            functionalities were not so easy, especially to clear the whole list. Although the result is only three
+            lines of code. Also showing if an item is already completed or not was a small task. </p>
 
           <div class="text-center">
             <h1 class="h3"> Link: </h1>
@@ -75,31 +100,18 @@
               <div class="col-xs-1">
               </div>
               <div class="col-xs-2">
-                <a href="https://github.com/DoriDoro/Ironhack-module-1-the-game" target=_blank>
+                <a href="https://github.com/DoriDoro/ToDoro" target=_blank>
                     <img src="./static/assets/images/GitHub_logo.jpg" class="img-responsive" alt="GitHub">
                 </a>
                 <p> GitHub </p>
               </div>
 
               <div class="col-xs-2">
-                <a href="https://doridoro.github.io/Ironhack-module-1-the-game/" target="_blank">
-                    <img src="./static/assets/images/GitHub_logo.jpg" class="img-responsive" alt="Heroku">
+                <small> does not work </small>
+                <a href="todoro-app.herokuapp.com/" target="_blank">
+                    <img src="./static/assets/images/Heroku_logo.jpg" class="img-responsive" alt="Heroku">
                 </a>
-                <p> GitHub Pages </p>
-              </div>
-
-              <div class="col-xs-2">
-                <a href="https://github.com/DoriDoro/Ironhack-project-Game-long-German-words" target=_blank>
-                    <img src="./static/assets/images/GitHub_logo.jpg" class="img-responsive" alt="GitHub">
-                </a>
-                <p> GitHub </p>
-              </div>
-
-              <div class="col-xs-2">
-                <a href="https://doridoro.github.io/Ironhack-project-Game-long-German-words/" target="_blank">
-                    <img src="./static/assets/images/GitHub_logo.jpg" class="img-responsive" alt="Heroku">
-                </a>
-                <p> GitHub Pages </p>
+                <p> Heroku </p>
               </div>
   
             </div>
