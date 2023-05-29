@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect
 import csv
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder='public/static')
 
 @app.route("/")
 def my_home():
@@ -13,7 +13,7 @@ def my_home():
 def html_page(page_name):
     return render_template(page_name)
 
-
+# contact form deactivated:
 # create a text file to store the contact form data:
 def write_to_file(data): # create a function which is writing the data of the contact form into file: database.txt
     with open('database.txt', mode='a') as database:  # file is already existing

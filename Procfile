@@ -1,5 +1,0 @@
-web: gunicorn server:app
-
-
-
-
