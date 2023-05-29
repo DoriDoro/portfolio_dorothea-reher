@@ -17,8 +17,7 @@ Creation of a portfolio containing projects, introduction and contact details wi
 
 
 ## Heroku website URL:
-https://portfolio-of-doro.herokuapp.com/
-
+https://portfolio-dorothea-reher-doridoro.vercel.app/
 
 
 ### Used HTML/CSS Free Template:
