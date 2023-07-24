@@ -9,9 +9,11 @@ Creation of a portfolio containing projects, introduction and contact details wi
 ```
  clone he project: https://github.com/DoriDoro/portfolio_dorothea-reher.git
  cd portfolio_dorothea-reher
+ 
  python -m venv venv
- venv/bin/activate
+ . venv/bin/activate
  pip install -r requirements.txt
+ 
  export FLASK_APP=index
  export FLASK_ENV=development
  flask run
