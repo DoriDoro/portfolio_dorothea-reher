@@ -6,18 +6,18 @@ Creation of a portfolio containing projects, introduction and contact details wi
 
 
 ## Installation process:
-```
- clone he project: https://github.com/DoriDoro/portfolio_dorothea-reher.git
- cd portfolio_dorothea-reher
+
+1. `clone he project: https://github.com/DoriDoro/portfolio_dorothea-reher.git`
+2. `cd portfolio_dorothea-reher`
  
- python -m venv venv
- . venv/bin/activate
- pip install -r requirements.txt
+3. `python -m venv venv`
+4. `. venv/bin/activate` on MacOS and Linux `venv\Scripts\activate` on Windows
+5. `pip install -r requirements.txt`
  
- export FLASK_APP=index
- export FLASK_ENV=development
- flask run
-```
+6. `export FLASK_APP=index`
+7. `export FLASK_ENV=development`
+8. `flask run`
+
 
 
 ## Vercel website URL:
